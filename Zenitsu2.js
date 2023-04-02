@@ -1398,7 +1398,7 @@ const ftroli = {
 
 
     const menulist = `
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Deepak to take your WhatsApp usage into next level.
+    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: ShehanShah to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1428,7 +1428,7 @@ const ftroli = {
     
     Type *.menu* or press any button below to start using *${global.BotName}*
     
-    ©️ *${global.BotName}* All Rights Reserved by: *Deepak*
+    ©️ *${global.BotName}* All Rights Reserved by: *Shehan Shah*
     `
         const qtod = m.quoted? "true":"false"
         
@@ -1592,7 +1592,7 @@ switch(command) {
     buttons: buttons,
     headerType: 4,
     /*contextInfo:{externalAdReply:{
-    title:"Powered by Deepak",
+    title:"Powered by SKE TECH",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/cheemspic.jpg"),
     mediaType:1,
@@ -4110,7 +4110,7 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  Deepak Youtube Player 2.0  」
+ caption: `「 AI-BOT By ShehanShah Youtube Player 」
 
 *Title :* ${anu.title}
 
@@ -5597,11 +5597,11 @@ case 'help': case 'h': case 'menu': case 'allmenu': case 'listmenu':{
     if (isBanChat) return reply(mess.bangc)
 Deepak.sendMessage(from, { react: { text: "🐕" , key: m.key }})      
 const helpmenu = `Hi ${pushname}
-Zenitsu Bot With You Forever!! 🐶🤚
+AI-Bot With You Forever!! 🐶🤚
 
 
-ꪶ🐕 Zenitsu-Bot Info 🐕ꫂ
-➙Owner : 🦄Dream Guy Deepak
+ꪶ🐕 AI-Bot Info 🐕ꫂ
+➙Owner : Shehan Shah
 ➙User :  ${pushname}
 ➙Prefix : [ ${prefix} ]
 ➙Mode : Public
@@ -5609,7 +5609,7 @@ Zenitsu Bot With You Forever!! 🐶🤚
 ➙Speed : ${latensie.toFixed(4)} ms
 ➙Runtime :  ${runtime(process.uptime())}
 ➙Total Bot User : ${Object.keys(global.db.users).length}
-➙Bot Number: 919679744547
+➙Bot Number: 923418437337
 
 ꪶ🐕Owner🐕ꫂ
 ➙ ${prefix}private
@@ -6867,7 +6867,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/online-black-and-white-bear-mascot-logo-creation-1012.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'thunder2':
@@ -6876,7 +6876,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-thunder-text-effect-online-881.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
    break
@@ -6886,7 +6886,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/neon-light-text-effect-online-882.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'matrix2':
@@ -6895,7 +6895,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/matrix-style-text-effect-online-884.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'sky':
@@ -6904,7 +6904,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-cloud-text-effect-on-the-sky-online-1004.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'magma':
@@ -6913,7 +6913,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-magma-hot-text-effect-online-1030.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'sand':
@@ -6922,7 +6922,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/sand-writing-text-effect-online-990.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'pencil':
@@ -6931,7 +6931,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'graffiti':
@@ -6940,7 +6940,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'metallic':
@@ -6949,7 +6949,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-metallic-text-effect-free-online-1041.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'steel':
@@ -6958,7 +6958,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/steel-text-effect-online-921.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'harrpotter':
@@ -6967,7 +6967,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-harry-potter-text-effect-online-1025.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'underwater':
@@ -6976,7 +6976,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-underwater-text-effect-generator-online-1013.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'luxury':
@@ -6985,7 +6985,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-luxury-gold-text-effect-online-1003.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'glue2':
@@ -6994,7 +6994,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-glue-text-effect-with-realistic-style-986.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'fabric':
@@ -7003,7 +7003,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/fabric-text-effect-online-964.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'neonlight':
@@ -7012,7 +7012,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/neon-light-glitch-text-generator-online-1063.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'lava':
@@ -7021,7 +7021,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/lava-text-effect-online-914.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'toxic':
@@ -7030,7 +7030,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/toxic-text-effect-online-901.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'ancient':
@@ -7039,7 +7039,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-golden-ancient-text-effect-online-free-1060.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'christmas2':
@@ -7048,7 +7048,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/sparkles-merry-christmas-text-effect-1054.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'sci_fi':
@@ -7057,7 +7057,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-3d-sci-fi-text-effect-online-1050.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'rainbow':
@@ -7066,7 +7066,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/3d-rainbow-color-calligraphy-text-effect-1049.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'classic':
@@ -7075,7 +7075,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/video-game-classic-8-bit-text-effect-1037.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'watercolor2':
@@ -7084,7 +7084,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-free-online-watercolor-text-effect-1017.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'halloweem2':
@@ -7093,7 +7093,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-spooky-halloween-text-effect-online-1046.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'halloweenfire':
@@ -7102,7 +7102,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/halloween-fire-text-effect-940.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'writing':
@@ -7111,7 +7111,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/sand-writing-text-effect-online-990.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'foggy':
@@ -7120,7 +7120,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/write-text-on-foggy-window-online-free-1015.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'marvel':
@@ -7129,7 +7129,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-logo-style-marvel-studios-ver-metal-972.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'skeleton2':
@@ -7138,7 +7138,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-halloween-skeleton-text-effect-online-1047.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'sketch':
@@ -7147,7 +7147,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-a-sketch-text-effect-online-1044.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'wonderful':
@@ -7156,7 +7156,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/create-wonderful-graffiti-art-text-effect-1011.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'batman':
@@ -7165,7 +7165,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/make-a-batman-logo-online-free-1066.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'juice':
@@ -7174,7 +7174,7 @@ if(!q) throw `Use ${prefix + command} text`
 m.reply(mess.wait)
 maker.textpro("https://textpro.me/fruit-juice-text-effect-861.html", [
     `${q}`,])
-  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by ZenitsuBot` }, { quoted: m }))
+  .then((data) => Deepak.sendMessage(m.chat, { image: { url: data }, caption: `Made by AI Bot` }, { quoted: m }))
   .catch((err) => console.log(err));
    break
 case 'pornhub':{
