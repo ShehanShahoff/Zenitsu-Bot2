@@ -27,14 +27,14 @@ console.log(color(figlet.textSync('ZenitsuBot', {
 		whitespaceBreak: true
         }), 'yellow'))
 
-console.log(color('\nHello, I am Deepak, the main Developer of this bot.\n\nThanks for using: Zenitsu Bot','aqua'))
-console.log(color('\nYou can follow me on Instagram: deepak_gupta_2006','aqua'))
+console.log(color('\nHello, I am ShehanShah, the main Developer of this bot.\n\nThanks for using: AI Bot','aqua'))
+console.log(color('\nYou can follow me on Instagram: sketechofficial','aqua'))
 
     let { version, isLatest } = await fetchLatestBaileysVersion()
     const Deepak = DeepakConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['Zenitsu by: Deepak','Safari','1.0.0'],
+        browser: ['AI-Bot by: Shehan Shah','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -152,7 +152,7 @@ Deepak.ev.on('group-participants.update', async (anu) => {
                 Deepaktext = `
 Hello @${WAuserName.split("@")[0]},
 
-I am *ZenitsuBot*, Welcome to ${metadata.subject}.
+I am *AI BOT*, Welcome to ${metadata.subject}.
 
 *Group Description:*
 ${metadata.desc}
