@@ -10,27 +10,27 @@ global.antitags = true
 //global.autoTyping = false //auto tying in gc (true to on, false to off)
 //global.autoRecord = true //auto recording (true to on, false to off)
 
-global.Owner = ['918348225320'] //ur number 
-global.OwnerNumber = ['918348225320']
-global.ownertag = ['918348225320']
-global.BotName = "ZenitsuBot-V2" //ur bot name 
-global.packname = "ZenitsuBot" //ur sticker pack name
-global.author = "🦄Dream Guy Deepak" 
-global.OwnerName = "🦄Dream Guy Deepak" //ur name
-global.BotSourceCode = "https://youtube.com/@dreamguydeepak" //ur website link
-global.SupportGroupLink = "https://chat.whatsapp.com/KguOo9XsRTW2iESYuHzVX1" //ur group link 
+global.Owner = ['923418437337'] //ur number 
+global.OwnerNumber = ['923418437337']
+global.ownertag = ['923418437337']
+global.BotName = "AIBot-V1" //ur bot name 
+global.packname = "AIBot" //ur sticker pack name
+global.author = "Syed ShehanShah" 
+global.OwnerName = "ShehanShah" //ur name
+global.BotSourceCode = "https:/www.sketechmods.com/" //ur website link
+global.SupportGroupLink = "https://chat.whatsapp.com/DP1p9OsW9ak2jsEoFwYWsL" //ur group link 
 global.sessionName = "session"
 
 // Prefix //
 global.prefa = ['.'] 
 
 
-global.location = "Darjeeling, India"
+global.location = "Punjab, Pakistan"
 global.reactmoji = "🐕"
 global.themeemoji = "🦄"
 global.vidmenu = { url: 'https://i.ibb.co/vXnjzpr/cheemspic.jpg' }
-global.websitex = "https://youtube.com/@dreamguydeepak"
-global.lolhuman = "Deepak"
+global.websitex = "https://www.sketechmods.com/"
+global.lolhuman = "Syed ShehanShah"
 
 
 global.BotLogo = fs.readFileSync("./Assets/cheemspic.jpg")
